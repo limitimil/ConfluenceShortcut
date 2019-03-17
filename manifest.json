@@ -8,8 +8,8 @@
       "matches": [
         "http://*.atlassian.net/wiki/*", "https://*.atlassian.net/wiki/*"
       ],
-      "js": ["jquery-1.7.2.min.js", "keymaster.min.js"],
-      "run_at": "document_start"
+      "js": ["jquery-1.7.2.min.js", "keymaster.min.js","main.js", "ShortcutSettings.js"],
+      "run_at": "document_end"
     }
   ],
   "permissions": [
@@ -20,5 +20,6 @@
     "48": "icon48.png",
     "128": "icon128.png",
     "256": "icon256.png"
-  }
+  },
+  "web_accessible_resources": ["ShortcutSettings.js", "main.js"]
 }
