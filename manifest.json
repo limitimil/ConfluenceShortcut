@@ -1,0 +1,24 @@
+{
+  "name": "Confluence Keyboard Shortcuts",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Confluence Keyboard Shortcuts",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.atlassian.net/wiki/*", "https://*.atlassian.net/wiki/*"
+      ],
+      "js": ["jquery-1.7.2.min.js", "keymaster.min.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+        "http://*.atlassian.net/wiki/*", "https://*.atlassian.net/wiki/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png",
+    "256": "icon256.png"
+  }
+}
