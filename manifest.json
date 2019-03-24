@@ -8,7 +8,7 @@
       "matches": [
         "http://*.atlassian.net/wiki/*", "https://*.atlassian.net/wiki/*"
       ],
-      "js": ["jquery-1.7.2.min.js", "keymaster.min.js","main.js", "ShortcutSettings.js"],
+      "js": ["jquery-1.7.2.min.js", "keymaster.min.js", "ShortcutSettings.js","main.js"],
       "run_at": "document_end"
     }
   ],
