@@ -7,3 +7,9 @@ function injectJs(srcFile) {
 	console.log('injection done!')
 }
 injectJs(chrome.extension.getURL('ShortcutSettings.js'));
+// setup key bindings
+(function(){
+ss = new ShortcutSettings('.search-result-link','#query-string')
+ss.bind()
+ss.initialize()
+})();
